@@ -10,6 +10,6 @@ The following assumptions will be made:
   - Basic pay rate = 12$/hr
   - Overtime (in excess of 40 hours a week) = time and half
   - Tax rate: 
-      15% for the first 300$
-      20% of the next 200$
-      25% of the rest
+      - 15% for the first 300$
+      - 20% of the next 200$
+      - 25% of the rest
