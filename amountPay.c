@@ -21,32 +21,17 @@ int main()
     {
        extraHour = hoursWorked - 40;
        overtimePay = extraHour * overtimePayrate;
+       grossPay = weekPay + overtimePay;
     }
     else {
        weekPay = hoursWorked * payRate; 
+       grossPay = weekPay;
     }
-
-    //Calculate Gross Pay for the work week
-    grossPay = weekPay + overtimePay; 
-    printf("Week normal pay %i", grossPay);
 
     //Calculate Tax Rates
-    if (grossPay == 300)
-    {
-        rate15 = (300 * 15) / 100; 
-    }
-    else
-    {
-        if (grossPay == 450)
-        {
-            rate20 = (300 * 150) / 100;
-        }
-        else
-        {
-            /* code */
-        }
-        
-    }
+
+
+    
     
     
 
